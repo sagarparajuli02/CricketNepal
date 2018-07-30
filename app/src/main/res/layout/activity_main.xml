@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5d6d7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:src="@drawable/cricket" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Cricket Nepal"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/homePage"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+
+                android:drawableTop="@drawable/ic_calendar"
+                android:paddingTop="7dp"
+                android:text="Schedule"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/team"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+                android:drawableTop="@drawable/team"
+                android:paddingTop="7dp"
+                android:text="Team"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/news"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+
+                android:drawableTop="@drawable/news"
+                android:paddingTop="7dp"
+                android:text="News"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/chaterPage"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+                android:drawableTop="@drawable/team"
+                android:paddingTop="7dp"
+                android:text="Team"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
