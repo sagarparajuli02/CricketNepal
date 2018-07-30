@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Cricket Nepal</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Title">Website Title</string>
+    <string name="Description">Website Description</string>
+    <string name="Logo">Website Logo</string>
 </resources>

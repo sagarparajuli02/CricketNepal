@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:src="@drawable/cricket" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Cricket Nepal"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimary"
+       android:paddingTop="20dp"
+       android:orientation="horizontal">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="80dp"
+
+               android:id="@+id/imageteamA"
+               android:layout_height="80dp" />
+           <TextView
+               android:id="@+id/titletxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="wq"
+               android:textColor="#fff"
+               android:textSize="25dp"
+               android:gravity="center" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/teamNameA"
+               android:textColor="#fff"
+               android:text="wqqw"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="wqqw"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="wqqw"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="80dp"
+               android:id="@+id/imageteamB"
+               android:layout_height="80dp" />
+           <TextView
+               android:id="@+id/desctxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#fff"
+               android:textSize="25dp"
+               android:gravity="center" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/teamNameB"
+               android:textColor="#fff"
+               android:text="wqqw"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="wqqw"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="wqqw"/>
+       </LinearLayout>
+   </LinearLayout>
+
+
+</LinearLayout>
